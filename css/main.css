@@ -33,7 +33,9 @@
 .cls-3 {
   fill: #fcf0c0;
 }
-
+.smiley-wrap{
+  max-width: 300px;
+}
 @keyframes move {
   0% {
     transform: translateX(0);
@@ -47,7 +49,9 @@
     transform: translateX(0);
   }
 }
-
+.smiley-wrap:hover .pupil{
+  animation-play-state: paused;
+}
 .pupil {
   animation: move 1s infinite;
 }
